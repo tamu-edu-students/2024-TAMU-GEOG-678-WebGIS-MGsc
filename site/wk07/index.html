@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
+        <script src="https://js.arcgis.com/4.6/"></script>
+        <script src="./map.js"></script>
+        <style>
+            html, body, #mapid {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            }
+            .esri-hello-world {
+                font-family: "Helvetica Neue", sans-serif;
+                display: inline-block;
+            }
+            .esri-hello-world--emphasis {
+                font-weight: bold;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="mapid"></div>
+        <div id="widgetDiv"></div>
+        <script>
+            var locationPath = location.pathname.replace(/\/[^\/]+$/, "");
+            window.dojoConfig = {
+            packages: [
+                {
+                name: "app",
+                location: locationPath + "/Widgets/HelloWorld"
+                }
+            ]
+            };
+            main();
+        </script>
+        <!-- <script>main();</script> -->
+    </body>
+
+</html>

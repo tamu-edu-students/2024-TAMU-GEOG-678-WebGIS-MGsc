@@ -1,0 +1,15 @@
+{
+  "name": "wk07",
+  "version": "1.0.0",
+  "description": "week 07",
+  "main": "map.js",
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

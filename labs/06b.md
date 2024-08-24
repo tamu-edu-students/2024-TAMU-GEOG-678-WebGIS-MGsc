@@ -1,0 +1,46 @@
+# TAMU WEBGIS: Lab 06 - Supplemental
+>
+>**Topic:** Javscript Data Merging - 
+>
+
+# Due Dates and Submission Instructions
+> **Online Program**: [Online Program Dues Dates & Submission Instructions](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Online/blob/master/submissions/06b.md)
+>
+> **Residential Program**: [Residential Program Dues Dates & Submission Instructions](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Residential/blob/master/submissions/06b.md)
+
+# Lab Outline
+1. Use Javascript to merge COVID-19 county case/death counts into the US county GeoJSON file
+2. Create a Leaflet US county map showing the total case count per county
+
+# Files
+1. Code
+    1. [HTML code for merging files: index.html](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/code/labs/06b/index.html)
+    2. [JQuery CSV package: jquery.csv.js](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/code/labs/06b/jquery.csv.js)
+    3. [Javascript functions: script.js](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/code/labs/06b/script.js)
+2. Data
+    1. [Input US Counties: gz_2010_us_050_00_20m.json](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/data/labs/06b/gz_2010_us_050_00_20m.json)
+    2. [Input COVID-19 Cases/Deaths: us-counties-covidCases.csv](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/data/labs/06b/us-counties-covidCases.csv)
+    3. [Output Merged File: us-counties-covidCasesPerData.json](https://github.tamu.edu/TAMU-GEOG-678-WebGIS/Content/blob/master/data/labs/06b/us-counties-covidCasesPerData.json)
+
+# Tasks:
+**Step 1:  Merge Data Sets**
+- Open the example code
+- Duplicate the example code
+- Duplicate the example code
+
+**Step 2:  Create Leaflet County Map with COVID-19 Counts**
+- Create a Leaflet map
+- Add the merged COVID-19/county data as a data layer
+- Symbolize counties based on COVID-19 counts
+
+# **To Hand In:**
+1. Create a lab\06b\ folder in your Github repository and link it to your main README.md
+2. Open the **web map** you created in a browser. Take a screenshot of your map displaying your features and popup window.  Upload your html file to **Github** lab\06b\ folder 
+3. Submit the link of your Github and the screenshot of your webmap to **Ecampus** 
+
+# Grading Rubric
+1. Successfully merged COVID-19 case/death data with the US county GeoJSON 100pt
+
+<!--
+## Videos
+[Video 1 - Lab 8](https://youtu.be/t97DGOFnybo)-->
