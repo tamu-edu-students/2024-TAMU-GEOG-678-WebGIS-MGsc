@@ -1,4 +1,4 @@
-#GEOG 678: WEBGIS
+# GEOG 678: WEBGIS
 
 Welcome to GEOG 678: WebGIS. This course introduces current developments in web-based Geographic Information Systems (GIS). By utilizing JavaScript and modern web technologies, students will learn essential WebGIS programming skills using industry-standard tools and frameworks.
 The lectures will focus on presenting code, methods, and theory of WebGIS development, as well as addressing common challenges and best practices in web mapping applications. 
